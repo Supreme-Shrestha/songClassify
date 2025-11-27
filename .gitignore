@@ -1,0 +1,20 @@
+# Data
+data/
+*.mp3
+*.webm
+*.wav
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# OS specific
+.DS_Store
+Thumbs.db
