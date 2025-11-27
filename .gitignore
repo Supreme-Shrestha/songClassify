@@ -3,6 +3,7 @@ data/
 *.mp3
 *.webm
 *.wav
+download_archive.txt
 
 # Python
 __pycache__/
