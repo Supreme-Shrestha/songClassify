@@ -4,6 +4,7 @@ data/
 *.webm
 *.wav
 download_archive.txt
+cookies.txt
 
 # Python
 __pycache__/
@@ -12,6 +13,7 @@ __pycache__/
 .venv/
 venv/
 ENV/
+.conda_env/
 
 # Jupyter Notebooks
 .ipynb_checkpoints/

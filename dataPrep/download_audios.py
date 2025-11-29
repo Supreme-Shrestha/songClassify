@@ -44,6 +44,7 @@ def download_audios(jsonl_path, output_base_dir, archive_file):
                 'ignoreerrors': True,
                 'quiet': False,
                 'no_warnings': True,
+                'cookiefile': os.path.join(os.path.dirname(jsonl_path), 'cookies.txt'),
             }
 
             try:
