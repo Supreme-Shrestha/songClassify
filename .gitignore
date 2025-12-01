@@ -6,6 +6,13 @@ data/
 download_archive.txt
 cookies.txt
 
+# Generated Models and Outputs
+models/
+outputs/
+archive/
+*.h5
+*.npy
+
 # Python
 __pycache__/
 *.py[cod]

@@ -52,6 +52,9 @@ ssh s_01kazj1pkp0sy7x8v9ssv78bq1@ssh.lightning.ai
 
 # Install yt-dlp
 ~/content/songClassify/.conda_env/bin/pip install yt-dlp
+
+# Install FFmpeg (required for audio conversion)
+/system/conda/miniconda3/bin/conda install -p ~/content/songClassify/.conda_env -c conda-forge ffmpeg -y
 ```
 
 ### 4. Run the Script
